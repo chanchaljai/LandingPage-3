@@ -17,7 +17,20 @@ body,html{
     align-items: center;
 }
 #center{
-    width: 80%;
+    position: relative;
+    width: 70%;
     height: 80%;
     background-color: red;
+}
+.imageContainer{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
