@@ -20,7 +20,6 @@ body,html{
     position: relative;
     width: 70%;
     height: 80%;
-    background-color: red;
 }
 .imageContainer{
     position: absolute;
