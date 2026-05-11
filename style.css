@@ -33,3 +33,16 @@ img{
     height: 100%;
     object-fit: cover;
 }
+#text{
+    bottom: 200px;
+    left: -60px;
+    position: absolute;
+    width: 600px;
+    height: 70px;
+    overflow: hidden;
+    z-index: 999;
+}
+#text h1{
+    font-weight: 600;
+    font-size: 60px;
+}
